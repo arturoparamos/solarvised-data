@@ -6,7 +6,7 @@
   {
    "id": "endesa-solar-plus",
    "company": "Endesa",
-   "name": "Solar Plus",
+   "name": "Solar Plus & Batería Virtual",
    "energy_kind": "fixed",
    "e1": 0.1849,
    "e2": 0.1849,
@@ -17,27 +17,27 @@
    "surplus_price": 0.06,
    "surplus_fee": 0,
    "monthly_fee": 2,
-   "notes": "Batería virtual 2 €/mes.",
-   "source_url": "https://www.iacompara.es/blog/mejores-tarifas-solares-2026",
-   "prices_date": "2026-10-26"
+   "notes": "Batería virtual 2 €/mes. Precio base; nuevas altas tienen un 7 % de descuento el primer año (0,171957 €/kWh), que es la cifra que muestran algunos comparadores.",
+   "source_url": "https://www.endesa.com/es/luz-y-gas/catalogo-solar/endesa-solar-plus-bateria-virtual",
+   "prices_date": "2026-10-15"
   },
   {
    "id": "naturgy-por-uso",
    "company": "Naturgy",
    "name": "Tarifa Por Uso (solar, batería virtual)",
-   "energy_kind": "3p",
-   "e1": 0.193,
-   "e2": 0.1201,
-   "e3": 0.085,
+   "energy_kind": "fixed",
+   "e1": 0.148,
+   "e2": 0.148,
+   "e3": 0.148,
    "p1": 0.12303,
    "p2": 0.061562,
    "surplus_mode": "bateria",
    "surplus_price": 0.06,
    "surplus_fee": 0,
    "monthly_fee": 0,
-   "notes": "Batería virtual solar gratuita.",
-   "source_url": "https://www.iacompara.es/blog/mejores-tarifas-solares-2026",
-   "prices_date": "2026-10-26"
+   "notes": "Batería virtual solar gratuita. Precio único de energía según Selectra (04/11/2026), coincide con Tarifasgasluz; iacompara (26/10) y Kelisto (16/10) daban tres periodos 0,193/0,121/0,085 €/kWh, que parecen corresponder a otra tarifa ('Tarifa Solar'). Sin fuente oficial accesible.",
+   "source_url": "https://selectra.es/autoconsumo/companias/naturgy-solar/tarifa",
+   "prices_date": "2026-11-04"
   },
   {
    "id": "octopus-solar",
@@ -71,9 +71,9 @@
    "surplus_price": 0.06,
    "surplus_fee": 0,
    "monthly_fee": 0,
-   "notes": "",
-   "source_url": "https://www.iacompara.es/blog/mejores-tarifas-solares-2026",
-   "prices_date": "2026-10-26"
+   "notes": "Precios de la web oficial. Roams (03/11/2026) indicaba 0,160 €/kWh; se usa la oficial.",
+   "source_url": "https://www.repsol.es/particulares/hogar/energia-solar/tarifas/",
+   "prices_date": "2026-11-09"
   },
   {
    "id": "repsol-solar-bv",
@@ -90,8 +90,8 @@
    "surplus_fee": 0,
    "monthly_fee": 1.99,
    "notes": "Batería virtual 1,99 €/mes.",
-   "source_url": "https://www.iacompara.es/blog/mejores-tarifas-solares-2026",
-   "prices_date": "2026-10-26"
+   "source_url": "https://www.repsol.es/particulares/hogar/energia-solar/tarifas/",
+   "prices_date": "2026-11-09"
   },
   {
    "id": "total-siempre-solar",
@@ -107,9 +107,45 @@
    "surplus_price": 0.07,
    "surplus_fee": 0,
    "monthly_fee": 0,
-   "notes": "Sin batería virtual.",
-   "source_url": "https://tarifasgasluz.com/autoconsumo/tarifas/mejor",
-   "prices_date": "2026-11-01"
+   "notes": "Sin batería virtual. Confirmado también por Selectra (04/11) y Kelisto (16/10).",
+   "source_url": "https://roams.es/energia/energia-renovable/energia-solar/compensacion-excentes/",
+   "prices_date": "2026-11-03"
+  },
+  {
+   "id": "total-programa-ahorro-solar",
+   "company": "TotalEnergies",
+   "name": "A Tu Aire Programa Tu Ahorro Autoconsumo",
+   "energy_kind": "3p",
+   "e1": 0.1835,
+   "e2": 0.1139,
+   "e3": 0.0861,
+   "p1": 0.094,
+   "p2": 0.094,
+   "surplus_mode": "simplificada",
+   "surplus_price": 0.07,
+   "surplus_fee": 0,
+   "monthly_fee": 0,
+   "notes": "Sin batería virtual. Energía de Kelisto (16/10/2026), coincide con Roams (0,184/0,114/0,086); potencia de Roams (03/11/2026).",
+   "source_url": "https://roams.es/energia/energia-renovable/energia-solar/compensacion-excentes/",
+   "prices_date": "2026-11-03"
+  },
+  {
+   "id": "imagina-plan-solar",
+   "company": "Imagina Energía",
+   "name": "Plan Solar",
+   "energy_kind": "fixed",
+   "e1": 0.119,
+   "e2": 0.119,
+   "e3": 0.119,
+   "p1": 0.136,
+   "p2": 0.086,
+   "surplus_mode": "bateria",
+   "surplus_price": 0.04,
+   "surplus_fee": 0,
+   "monthly_fee": 0,
+   "notes": "Monedero Solar gratuito. Energía con promoción del 20 % (sin promoción 0,148 €/kWh). Coincide con Roams (03/11/2026).",
+   "source_url": "https://imaginaenergia.com/hogares/plan-solar",
+   "prices_date": "2026-11-09"
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
- "version": "2026-11-09",
- "updated": "2026-11-09",
+ "version": "2026-11-16",
+ "updated": "2026-11-16",
  "note": "Catálogo central de ofertas de luz 2.0TD con autoconsumo (precios sin impuestos). Lo descargan todas las instalaciones de SolarVised cada día.",
  "offers": [
   {
@@ -71,9 +71,9 @@
    "surplus_price": 0.06,
    "surplus_fee": 0,
    "monthly_fee": 0,
-   "notes": "Precios de la web oficial. Roams (03/11/2026) indicaba 0,160 €/kWh; se usa la oficial.",
-   "source_url": "https://www.repsol.es/particulares/hogar/energia-solar/tarifas/",
-   "prices_date": "2026-11-09"
+   "notes": "Energía y excedentes confirmados por Selectra (05/11/2026), coinciden con la web oficial de la revisión anterior; la web oficial ya no muestra cifras sin impuestos. Roams (12/11/2026) indica 0,190 €/kWh y potencia 0,100 €/kW·día; se mantiene el precio anterior a falta de confirmación oficial.",
+   "source_url": "https://selectra.es/energia/companias/repsol/tarifa-solar",
+   "prices_date": "2026-11-05"
   },
   {
    "id": "repsol-solar-bv",
@@ -107,9 +107,9 @@
    "surplus_price": 0.07,
    "surplus_fee": 0,
    "monthly_fee": 0,
-   "notes": "Sin batería virtual. Confirmado también por Selectra (04/11) y Kelisto (16/10).",
+   "notes": "Sin batería virtual. Roams (12/11/2026) da 0,120 €/kWh y 0,094 €/kW·día (redondeado); coincide con Selectra (04/11) y Kelisto (16/10).",
    "source_url": "https://roams.es/energia/energia-renovable/energia-solar/compensacion-excentes/",
-   "prices_date": "2026-11-03"
+   "prices_date": "2026-11-12"
   },
   {
    "id": "total-programa-ahorro-solar",
@@ -125,9 +125,9 @@
    "surplus_price": 0.07,
    "surplus_fee": 0,
    "monthly_fee": 0,
-   "notes": "Sin batería virtual. Energía de Kelisto (16/10/2026), coincide con Roams (0,184/0,114/0,086); potencia de Roams (03/11/2026).",
+   "notes": "Sin batería virtual. Energía de Kelisto (16/10/2026), coincide con Roams (12/11/2026: 0,184/0,114/0,086); potencia de Roams.",
    "source_url": "https://roams.es/energia/energia-renovable/energia-solar/compensacion-excentes/",
-   "prices_date": "2026-11-03"
+   "prices_date": "2026-11-12"
   },
   {
    "id": "imagina-plan-solar",
@@ -143,9 +143,45 @@
    "surplus_price": 0.04,
    "surplus_fee": 0,
    "monthly_fee": 0,
-   "notes": "Monedero Solar gratuito. Energía con promoción del 20 % (sin promoción 0,148 €/kWh). Coincide con Roams (03/11/2026).",
+   "notes": "Monedero Solar gratuito. Energía con promoción del 20 % (sin promoción 0,148 €/kWh), válida hasta agotar volumen. Web oficial (16/11/2026), coincide con Roams (12/11/2026).",
    "source_url": "https://imaginaenergia.com/hogares/plan-solar",
-   "prices_date": "2026-11-09"
+   "prices_date": "2026-11-16"
+  },
+  {
+   "id": "yoigo-fija-solar",
+   "company": "Yoigo Luz y Gas",
+   "name": "Tarifa Fija Solar",
+   "energy_kind": "fixed",
+   "e1": 0.149,
+   "e2": 0.149,
+   "e3": 0.149,
+   "p1": 0.133,
+   "p2": 0.06,
+   "surplus_mode": "simplificada",
+   "surplus_price": 0.083,
+   "surplus_fee": 0,
+   "monthly_fee": 0,
+   "notes": "Antes EnergyGO. Sin batería virtual publicada. Excedentes 0,083 €/kWh según Roams (12/11/2026), el mejor del comparador; la ficha de Roams indica que podrían ser indexados, confirmar con la comercializadora.",
+   "source_url": "https://roams.es/energia/energia-renovable/energia-solar/compensacion-excentes/",
+   "prices_date": "2026-11-12"
+  },
+  {
+   "id": "gana-24h-autoconsumo",
+   "company": "Gana Energía",
+   "name": "Tarifa 24 horas Autoconsumo",
+   "energy_kind": "fixed",
+   "e1": 0.149,
+   "e2": 0.149,
+   "e3": 0.149,
+   "p1": 0.099,
+   "p2": 0.099,
+   "surplus_mode": "simplificada",
+   "surplus_price": 0.06,
+   "surplus_fee": 0,
+   "monthly_fee": 0,
+   "notes": "Sin batería virtual (no disponible). Sin permanencia. Precios de Roams (12/11/2026), coinciden con la ficha de Gana Energía en Roams.",
+   "source_url": "https://roams.es/energia/energia-renovable/energia-solar/compensacion-excentes/",
+   "prices_date": "2026-11-12"
   }
  ]
 }

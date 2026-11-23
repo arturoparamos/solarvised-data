@@ -1,5 +1,11 @@
 # Cambios del catálogo
 
+## 2026-11-23 (revisión semanal)
+- Octopus Solar: energía 0,233/0,177/0,137 → 0,254/0,187/0,156 €/kWh; excedentes 0,035 → 0,04 €/kWh; potencia sin cambios (Selectra 18/11/2026, coincide con Roams 01/11/2026 y Tarifasgasluz).
+- Nueva: Naturgy Tarifa Noche con Batería Virtual (0,218/0,145/0,110 €/kWh, potencia 0,123/0,0616 €/kW·día, excedentes 0,06 €/kWh, batería virtual gratis; Selectra 18/11/2026 y Roams 12/11/2026).
+- Sin cambios de precio, verificadas: Endesa Solar Plus & Batería Virtual (web oficial, 15/10/2026), Naturgy Tarifa Por Uso, TotalEnergies A Tu Aire Siempre Solar y Repsol Solar Precio Fijo (Selectra 18/11/2026), Repsol Solar con Batería Virtual (página oficial de tarifas, 17/11/2026), TotalEnergies Programa Tu Ahorro, Yoigo Tarifa Fija Solar y Gana Energía 24 horas (Roams 12/11/2026).
+- Imagina Plan Solar: sin cambios; la web oficial no fue accesible esta semana, solo confirmada por Roams (12/11/2026).
+
 ## 2026-11-16 (revisión semanal)
 - Nueva: Yoigo Luz y Gas Tarifa Fija Solar (0,149 €/kWh precio único, potencia 0,133/0,060 €/kW·día, excedentes 0,083 €/kWh; Roams 12/11/2026).
 - Nueva: Gana Energía Tarifa 24 horas Autoconsumo (0,149 €/kWh precio único, potencia 0,099 €/kW·día, excedentes 0,06 €/kWh; Roams 12/11/2026).

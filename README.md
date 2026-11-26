@@ -37,6 +37,10 @@ potencia 0,0005–0,4 €/kW·día, excedente 0–0,3 €/kWh, cuota 0–30 €/
 La tarifa regulada (PVPC) y la referencia de venta a mercado las calcula la propia app con los
 precios horarios de Red Eléctrica; no van en este archivo.
 
+## Baterías virtuales
+
+Comparativa completa (incluidas las comercializadoras que no entran en el catálogo) en `BATERIAS-VIRTUALES.md`.
+
 ## Historial
 
 Ver `CHANGELOG.md`.

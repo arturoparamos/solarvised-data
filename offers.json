@@ -1,6 +1,6 @@
 {
- "version": "2026-11-23",
- "updated": "2026-11-23",
+ "version": "2026-11-26",
+ "updated": "2026-11-26",
  "note": "Catálogo central de ofertas de luz 2.0TD con autoconsumo (precios sin impuestos). Lo descargan todas las instalaciones de SolarVised cada día.",
  "offers": [
   {
@@ -17,7 +17,7 @@
    "surplus_price": 0.06,
    "surplus_fee": 0,
    "monthly_fee": 2,
-   "notes": "Batería virtual 2 €/mes. Precio base de la ficha oficial (actualización 15/10/2026); nuevas altas tienen un 7 % de descuento el primer año (0,171957 €/kWh), que es la cifra que muestran algunos comparadores. La tabla comparativa de la misma web indica 0,1649 €/kWh.",
+   "notes": "Batería virtual 2 €/mes. Precio base de la ficha oficial (actualización 15/10/2026); nuevas altas tienen un 7 % de descuento el primer año (0,171957 €/kWh), que es la cifra que muestran algunos comparadores. La tabla comparativa de la misma web indica 0,1649 €/kWh. Saldo sin caducidad; solo aplicable al mismo CUPS.",
    "source_url": "https://www.endesa.com/es/luz-y-gas/catalogo-solar/endesa-solar-plus-bateria-virtual",
    "prices_date": "2026-10-15"
   },
@@ -35,7 +35,7 @@
    "surplus_price": 0.06,
    "surplus_fee": 0,
    "monthly_fee": 0,
-   "notes": "Batería virtual solar gratuita. Precio único 0,1480 €/kWh y potencia 0,1230/0,0616 €/kW·día en la ficha de Selectra (18/11/2026); el texto de la misma página menciona 0,1099 €/kWh, se usa la ficha. Sin fuente oficial accesible.",
+   "notes": "Batería virtual solar gratuita. Precio único 0,1480 €/kWh y potencia 0,1230/0,0616 €/kW·día en la ficha de Selectra (18/11/2026); el texto de la misma página menciona 0,1099 €/kWh, se usa la ficha. Sin fuente oficial accesible. Saldo caduca a los 5 años; aplicable a luz y gas del mismo titular.",
    "source_url": "https://selectra.es/autoconsumo/tarifas/mejor",
    "prices_date": "2026-11-18"
   },
@@ -53,7 +53,7 @@
    "surplus_price": 0.04,
    "surplus_fee": 0,
    "monthly_fee": 0,
-   "notes": "Batería virtual gratuita (Octopus Solar Wallet). Energía y potencia de Selectra (18/11/2026), coinciden con Roams (01/11/2026) y Tarifasgasluz. Excedentes 0,04 €/kWh según Selectra (la más reciente); Roams y Papernest dan 0,035. Clientes que instalaron con Octopus: 0,07 €/kWh. Papernest (13/07/2026) daba 0,299/0,192/0,165, desfasado.",
+   "notes": "Batería virtual gratuita (Octopus Solar Wallet). Energía y potencia de Selectra (18/11/2026), coinciden con Roams (01/11/2026) y Tarifasgasluz. Excedentes 0,04 €/kWh según Selectra (la más reciente); Roams y Papernest dan 0,035. Clientes que instalaron con Octopus: 0,07 €/kWh. Papernest (13/07/2026) daba 0,299/0,192/0,165, desfasado. Saldo sin caducidad; compartible con otros suministros Octopus.",
    "source_url": "https://selectra.es/energia/companias/octopus-energy/tarifa-solar",
    "prices_date": "2026-11-18"
   },
@@ -89,7 +89,7 @@
    "surplus_price": 0.06,
    "surplus_fee": 0,
    "monthly_fee": 1.99,
-   "notes": "Batería virtual 1,99 €/mes (confirmado también por Selectra 18/11/2026). Precios de la página oficial de tarifas solares (17/11/2026).",
+   "notes": "Batería virtual 1,99 €/mes (confirmado también por Selectra 18/11/2026). Precios de la página oficial de tarifas solares (17/11/2026). Saldo sin caducidad mientras el servicio esté activo (1 año tras la baja); compartible entre suministros del mismo titular.",
    "source_url": "https://www.repsol.es/particulares/hogar/energia-solar/tarifas/",
    "prices_date": "2026-11-17"
   },
@@ -143,7 +143,7 @@
    "surplus_price": 0.04,
    "surplus_fee": 0,
    "monthly_fee": 0,
-   "notes": "Monedero Solar gratuito. Energía con promoción del 20 % (sin promoción 0,148 €/kWh), válida hasta agotar volumen. Web oficial (16/11/2026), coincide con Roams (12/11/2026).",
+   "notes": "Monedero Solar gratuito. Energía con promoción del 20 % (sin promoción 0,148 €/kWh), válida hasta agotar volumen. Web oficial (16/11/2026), coincide con Roams (12/11/2026). Saldo sin caducidad; aplicable a segunda vivienda u otro suministro con Imagina.",
    "source_url": "https://imaginaenergia.com/hogares/plan-solar",
    "prices_date": "2026-11-16"
   },
@@ -175,11 +175,11 @@
    "e3": 0.149,
    "p1": 0.099,
    "p2": 0.099,
-   "surplus_mode": "simplificada",
+   "surplus_mode": "bateria",
    "surplus_price": 0.06,
    "surplus_fee": 0,
    "monthly_fee": 0,
-   "notes": "Sin batería virtual (no disponible). Sin permanencia. Precios de Roams (12/11/2026), coinciden con la ficha de Gana Energía en Roams.",
+   "notes": "Con Monedero Virtual (batería virtual): gratis los 12 primeros meses, después desde 0,07 €/día (~2,13 €/mes); en la baja se abona el saldo en la última factura. Sin permanencia. Precios de Roams (12/11/2026); Monedero según Alianza Energética (02/11/2026) y tuexcedente.es, y Selectra (18/11/2026) marca esta tarifa con batería virtual. Web oficial no accesible.",
    "source_url": "https://roams.es/energia/energia-renovable/energia-solar/compensacion-excentes/",
    "prices_date": "2026-11-12"
   },
@@ -197,7 +197,7 @@
    "surplus_price": 0.06,
    "surplus_fee": 0,
    "monthly_fee": 0,
-   "notes": "Batería virtual solar gratuita. Precios de Selectra (18/11/2026); coinciden con Roams (12/11/2026, 'Tarifa Solar' de Naturgy: 0,218/0,145/0,110, potencia 0,123/0,062). Sin fuente oficial accesible.",
+   "notes": "Batería virtual solar gratuita. Precios de Selectra (18/11/2026); coinciden con Roams (12/11/2026, 'Tarifa Solar' de Naturgy: 0,218/0,145/0,110, potencia 0,123/0,062). Sin fuente oficial accesible. Saldo caduca a los 5 años; aplicable a luz y gas del mismo titular.",
    "source_url": "https://selectra.es/autoconsumo/tarifas/mejor",
    "prices_date": "2026-11-18"
   }

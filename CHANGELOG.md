@@ -1,5 +1,10 @@
 # Cambios del catálogo
 
+## 2026-11-26
+- Gana Energía Tarifa 24 horas Autoconsumo: compensación simplificada → batería virtual (Monedero Virtual, gratis el primer año, después ~2,13 €/mes); precios sin cambios.
+- Notas de las ofertas con batería virtual: añadida la caducidad del saldo y dónde se puede usar.
+- Nuevo `BATERIAS-VIRTUALES.md` con la comparativa de unas 30 comercializadoras con batería virtual.
+
 ## 2026-11-23 (revisión semanal)
 - Octopus Solar: energía 0,233/0,177/0,137 → 0,254/0,187/0,156 €/kWh; excedentes 0,035 → 0,04 €/kWh; potencia sin cambios (Selectra 18/11/2026, coincide con Roams 01/11/2026 y Tarifasgasluz).
 - Nueva: Naturgy Tarifa Noche con Batería Virtual (0,218/0,145/0,110 €/kWh, potencia 0,123/0,0616 €/kW·día, excedentes 0,06 €/kWh, batería virtual gratis; Selectra 18/11/2026 y Roams 12/11/2026).
